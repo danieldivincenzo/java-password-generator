@@ -6,15 +6,13 @@ public class PasswordGenerator {
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Inserisci il tuo nome: ");
-        String nome = scan.next();
-
-        scan.nextLine();
-
+        String nome = scan.nextLine();
+        
         System.out.print("Inserisci il tuo cognome: ");
         String cognome = scan.nextLine();
 
         System.out.print("Inserisci il tuo colore preferito: ");
-        String colore = scan.next();
+        String colore = scan.nextLine();
 
         System.out.print("Inserisci il tuo giorno di nascita: ");
         short giornoNascita = scan.nextShort();
